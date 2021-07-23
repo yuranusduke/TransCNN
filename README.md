@@ -1,7 +1,7 @@
 #  ***Transformer in Convolutional Neural Networks***
 
 Unofficial toy implementation for ***Transformer in Convolutional Neural Networks***.
-There are many ambiguous points in the paper, so implementation may differ
+There are many ambiguous points from the paper, so implementation may differ
 a lot in the original paper and I only get models 
 for 256 x 256 inputs.
 
