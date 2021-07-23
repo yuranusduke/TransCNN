@@ -7,8 +7,19 @@ for 256 x 256 inputs.
 
 Paper: https://arxiv.org/abs/2106.03180
 
+## Import
+```python
+from model import TransCNN_Model
 
-### Number of Params
+num_classes = 1000
+in_channels = 3
+input_size = 256 
+
+small_model = TransCNN_Model(num_classes, in_channels = in_channels, type = 'small').cuda()
+```
+
+
+## Number of Params
 
 <table>
     <tr>
